@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-light: rgb(253,252,247);
+  --color-bg-dark: rgb(248,244,235);
+  --color-border: rgb(210,210,208);
+  --color-blue: rgb(0 36 107);
+  --color-bg-selectbox: rgb (200,200,200);
+  --color-lightblue: rgb(202 220 252);
+  --font-font: 'Gotu';
+}
+
+.logo {
+  font-family: "Gotu", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.form-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.select-option{
+  @apply text-white text-center bg-blue p-2 w-90 border rounded-lg;
+}
+
+.select-box{
+  @apply bg-bg-light border-1 rounded w-90;
+}

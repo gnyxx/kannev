@@ -1,0 +1,41 @@
+# === Global ignores ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# === Python backend ===
+back-end/venv/
+back-end/__pycache__/
+back-end/*.pkl
+back-end/*.pickle
+back-end/*.p
+back-end/*.h5
+back-end/data/
+back-end/uploads/
+
+# Optional: Ignore model file if large or not to be shared
+back-end/model.p
+back-end/data.pickle
+
+# === React frontend ===
+react-app/node_modules/
+react-app/dist/
+react-app/build/
+react-app/.env
+react-app/.DS_Store
+
+# === OS / IDE / Misc ===
+.vscode/
+.env
+.cache/
+*.env.*
+*.local
+
+# === Git ===
+.git/
